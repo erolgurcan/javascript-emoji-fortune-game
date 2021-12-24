@@ -1,0 +1,102 @@
+html{
+    background-color: azure;
+}
+
+body{
+    padding: 30px;
+    margin: auto;
+    width: 70%;    
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(4, 200px);
+}
+
+#output{
+    color: red;
+}
+
+#button{
+    text-align: center;
+}
+
+input{                
+    width: 80%;
+    line-height: 2.5em;
+    font-size: 1em;
+    padding: 10px;
+}
+
+div{         
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+div#control{
+    font-size: 1.5em;
+    grid-column: 2/6;
+    grid-row: 2/4;
+    padding: 25%;
+}
+
+div[id^='div_']{
+    font-size: 60pt;
+    padding-top: 20px;
+}
+
+div#div_7{
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+div#div_8{
+    grid-column: 6/7;
+    grid-row: 3/4;
+}
+
+div#div_9{
+    grid-column: 6/7;
+    grid-row: 4/4;
+}
+
+div#div_10{
+    grid-column: 5/6;
+    grid-row: 4/4;
+}
+
+div#div_11{
+    grid-column: 4/5;
+    grid-row: 4/4;
+}
+
+
+div#div_12{
+    grid-column: 3/4;
+    grid-row: 4/4;
+}
+
+div#div_13{
+    grid-column: 2/3;
+    grid-row: 4/4;
+}
+
+div#div_14{
+    grid-column: 1/2;
+    grid-row: 4/4;
+}
+
+div#div_15{
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+div#div_16{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: aqua;
+}
+
